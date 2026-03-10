@@ -1,28 +1,27 @@
 # 🎬 Movie Database App
 
-A fully responsive Movie Database app built with React.js, integrated with the TMDB API.
+A fully responsive Movie Database web application built with React.js, powered by the TMDB API. Browse popular, top-rated, and upcoming movies, search for any movie, and view detailed information including cast.
 
 ## 🌐 Live Demo
-https://goulipsharathkumard0904rjscpo4lio.drops.nxtwave.tech
+👉 https://frabjous-chebakia-4f6502.netlify.app
 
-## ✨ Features
-- Browse Popular, Top Rated & Upcoming Movies
-- Search any movie
-- Movie Details page with Cast section
-- Pagination on all pages
-- Fully responsive design
+## 🎥 Features
+- 🔥 Browse Popular Movies
+- ⭐ Top Rated Movies
+- 🎬 Upcoming Movies
+- 🔍 Search any Movie
+- 📄 Movie Details Page (rating, runtime, genres, overview, budget, revenue)
+- 🎭 Cast Section with photos
+- 📱 Fully Responsive Design
+- ⏭️ Pagination on all pages
 
 ## 🛠️ Tech Stack
-- React.js
-- React Router DOM
-- Axios
-- Tailwind CSS
-- TMDB API
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend framework |
+| React Router DOM | Page navigation |
+| Axios | API calls |
+| Tailwind CSS | Styling |
+| TMDB API | Movie data |
 
-## 🚀 Run Locally
-```bash
-git clone https://github.com/goulipsharathkumar/movie-db-app.git
-cd movie-db-app
-pnpm install
-pnpm start
-```
+## 📁 Project Structure
