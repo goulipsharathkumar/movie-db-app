@@ -2,7 +2,7 @@
 
 A full-stack MERN web application for browsing restaurant menus, managing cart, and placing orders.
 
-🔗 **Live Demo:** https://sharurestaurant.ccbp.tech
+🔗 **Live Demo:**https://frabjous-chebakia-4f6502.netlify.app
 
 📌 **GitHub:** https://github.com/goulipsharathkumar/Restaurant-App
 
@@ -73,7 +73,7 @@ Open http://localhost:3000 in your browser.
 
 ## 📸 Screenshots
 
-> Live Demo: https://sharurestaurant.ccbp.tech
+> Live Demo: https://frabjous-chebakia-4f6502.netlify.app
 
 ---
 
