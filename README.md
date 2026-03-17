@@ -1,48 +1,47 @@
-# 🍽️ Restaurant Ordering Platform
+# 🎬 Movie Database Application
 
-A full-stack MERN web application for browsing restaurant menus, managing cart, and placing orders.
+A fully responsive React Single Page Application integrated with the TMDB REST API to browse and search movies.
 
-🔗 **Live Demo:**https://frabjous-chebakia-4f6502.netlify.app
+🔗 **Live Demo:** https://frabjous-chebakia-4f6502.netlify.app
 
-📌 **GitHub:** https://github.com/goulipsharathkumar/Restaurant-App
+📌 **GitHub:** https://github.com/goulipsharathkumar/movie-db-app
 
 ---
 
 ## 🛠️ Technologies Used
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ---
 
 ## ✨ Features
 
-- 🔐 **JWT Authentication** — Secure login with cookie-based session management
-- 🏠 **Home Route** — Browse food categories with tab navigation
-- 🛒 **Cart Management** — Add, remove, increment, decrement items with real-time total
-- 🌐 **Context API** — Global cart state management across all components
-- 📱 **Fully Responsive** — Works on mobile, tablet, and desktop
-- 🔒 **Protected Routes** — Unauthenticated users redirected to login
-- 🔄 **REST APIs** — Integrated using Axios for data exchange
+- 🎥 **Browse Movies** — Popular, Top Rated, and Upcoming categories
+- 🔍 **Search** — Real-time movie search with instant results
+- 📄 **Movie Details** — Cast, genres, runtime, budget, and revenue
+- 📑 **Pagination** — Navigate through pages of results
+- ⏳ **Loading States** — Spinner while fetching data
+- ❌ **Error Handling** — Error message with Retry button
+- 📱 **Fully Responsive** — TailwindCSS responsive design
+- 🔀 **React Router DOM** — Client-side navigation
 
 ---
 
 ## 📁 Project Structure
 
 ```
-Restaurant-App/
+movie-db-app/
 ├── src/
 │   ├── components/
-│   │   ├── Header/
-│   │   ├── DishCard/
-│   │   ├── CartItem/
-│   │   ├── Counter/
-│   │   └── CategoryTabs/
-│   ├── context/
-│   │   └── CartContext.js
+│   │   ├── MovieCard/
+│   │   ├── MovieDetails/
+│   │   ├── SearchBar/
+│   │   ├── Pagination/
+│   │   └── Navbar/
 │   ├── App.js
 │   └── index.js
 ├── public/
@@ -55,10 +54,10 @@ Restaurant-App/
 
 ```bash
 # Clone the repository
-git clone https://github.com/goulipsharathkumar/Restaurant-App.git
+git clone https://github.com/goulipsharathkumar/movie-db-app.git
 
 # Navigate to project folder
-cd Restaurant-App
+cd movie-db-app
 
 # Install dependencies
 npm install
@@ -68,6 +67,8 @@ npm start
 ```
 
 Open http://localhost:3000 in your browser.
+
+> Note: This app uses the TMDB API. Get your free API key at https://www.themoviedb.org/
 
 ---
 
